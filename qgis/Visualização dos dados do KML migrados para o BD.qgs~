@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="Julio Carlos Santos Lima" saveDateTime="2020-10-06T16:11:01" saveUser="90768116600" projectname="" version="3.14.16-Pi">
+<qgis saveUserFull="Julio Carlos Santos Lima" saveDateTime="2020-10-06T16:08:34" saveUser="90768116600" projectname="" version="3.14.16-Pi">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -121,7 +121,7 @@
       <layer-tree-layer providerKey="postgres" patch_size="-1,-1" name="Alteração Fisiográfica Antrópica (Área)" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="service='spu-edgv-connection' sslmode=disable key='idgeometria' srid=4674 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;alteracao_fisiografica_antropica_a&quot; (geom)" expanded="1" id="alteracao_fisiografica_antropica_a_788e963b_101d_4006_9a8b_53282beaa8b2">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="postgres" patch_size="-1,-1" name="Elemento Fisiográfico Natural (Ponto)" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="service='spu-edgv-connection' sslmode=disable key='idgeometria' srid=4674 type=MultiPoint checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;elemento_fisiografico_natural_p&quot; (geom)" expanded="1" id="elemento_fisiografico_natural_p_c5e897d6_3e62_4c13_a957_6acfa91a321d">
+      <layer-tree-layer providerKey="postgres" patch_size="-1,-1" name="elemento_fisiografico_natural_p" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="service='spu-edgv-connection' sslmode=disable key='idgeometria' srid=4674 type=MultiPoint checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;elemento_fisiografico_natural_p&quot; (geom)" expanded="1" id="elemento_fisiografico_natural_p_c5e897d6_3e62_4c13_a957_6acfa91a321d">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer providerKey="postgres" patch_size="-1,-1" name="elemento_fisiografico_natural_l" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="service='spu-edgv-connection' sslmode=disable key='idgeometria' srid=4674 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;elemento_fisiografico_natural_l&quot; (geom)" expanded="1" id="elemento_fisiografico_natural_l_975cf70d_f00c_4f86_981e_cf6762db5870">
@@ -782,7 +782,7 @@
           <legendlayerfile visible="1" isInOverview="0" layerid="alteracao_fisiografica_antropica_a_788e963b_101d_4006_9a8b_53282beaa8b2"/>
         </filegroup>
       </legendlayer>
-      <legendlayer showFeatureCount="0" open="true" name="Elemento Fisiográfico Natural (Ponto)" checked="Qt::Checked" drawingOrder="-1">
+      <legendlayer showFeatureCount="0" open="true" name="elemento_fisiografico_natural_p" checked="Qt::Checked" drawingOrder="-1">
         <filegroup open="true" hidden="false">
           <legendlayerfile visible="1" isInOverview="0" layerid="elemento_fisiografico_natural_p_c5e897d6_3e62_4c13_a957_6acfa91a321d"/>
         </filegroup>
@@ -8739,13 +8739,13 @@ def my_form_open(diálogo, camada, feição):
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer simplifyDrawingHints="0" readOnly="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingTol="1" simplifyAlgorithm="0" minScale="100000000" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" geometry="Point" wkbType="MultiPoint" styleCategories="AllStyleCategories" labelsEnabled="0" refreshOnNotifyEnabled="0" simplifyMaxScale="1" type="vector" autoRefreshTime="0">
+    <maplayer simplifyDrawingHints="1" readOnly="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingTol="1" simplifyAlgorithm="0" minScale="100000000" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" geometry="Point" wkbType="MultiPoint" styleCategories="AllStyleCategories" labelsEnabled="0" refreshOnNotifyEnabled="0" simplifyMaxScale="1" type="vector" autoRefreshTime="0">
       <id>elemento_fisiografico_natural_p_c5e897d6_3e62_4c13_a957_6acfa91a321d</id>
       <datasource>service='spu-edgv-connection' sslmode=disable key='idgeometria' srid=4674 type=MultiPoint checkPrimaryKeyUnicity='1' table="public"."elemento_fisiografico_natural_p" (geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Elemento Fisiográfico Natural (Ponto)</layername>
+      <layername>elemento_fisiografico_natural_p</layername>
       <srs>
         <spatialrefsys>
           <wkt>GEOGCRS["SIRGAS 2000",DATUM["Sistema de Referencia Geocentrico para las AmericaS 2000",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["Latin America - SIRGAS 2000 by country"],BBOX[-59.87,-122.19,32.72,-25.28]],ID["EPSG",4674]]</wkt>
@@ -8766,15 +8766,6 @@ def my_form_open(diálogo, camada, feição):
         <type>dataset</type>
         <title></title>
         <abstract></abstract>
-        <contact>
-          <name></name>
-          <organization></organization>
-          <position></position>
-          <voice></voice>
-          <fax></fax>
-          <email></email>
-          <role></role>
-        </contact>
         <links/>
         <fees></fees>
         <encoding></encoding>
@@ -8791,15 +8782,7 @@ def my_form_open(diálogo, camada, feição):
             <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
-        <extent>
-          <spatial crs="EPSG:4674" maxx="0" maxy="0" miny="0" minz="0" dimensions="2" minx="0" maxz="0"/>
-          <temporal>
-            <period>
-              <start></start>
-              <end></end>
-            </period>
-          </temporal>
-        </extent>
+        <extent/>
       </resourceMetadata>
       <provider encoding="">postgres</provider>
       <vectorjoins/>
@@ -8857,143 +8840,61 @@ def my_form_open(diálogo, camada, feição):
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <customproperties>
-        <property value="0" key="embeddedWidgets/count"/>
-        <property key="variableNames"/>
-        <property key="variableValues"/>
-      </customproperties>
+      <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
-      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory penWidth="0" spacingUnit="MM" direction="0" minScaleDenominator="0" labelPlacementMethod="XHeight" backgroundColor="#ffffff" spacing="5" enabled="0" sizeType="MM" height="15" opacity="1" width="15" lineSizeType="MM" barWidth="5" scaleDependency="Area" rotationOffset="270" showAxis="1" maxScaleDenominator="1e+08" spacingUnitScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" diagramOrientation="Up" penColor="#000000" minimumSize="0" penAlpha="255" backgroundAlpha="255" sizeScale="3x:0,0,0,0,0,0" lineSizeScale="3x:0,0,0,0,0,0">
-          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-          <axisSymbol>
-            <symbol alpha="1" type="line" name="" force_rhr="0" clip_to_extent="1">
-              <layer locked="0" class="SimpleLine" pass="0" enabled="1">
-                <prop v="square" k="capstyle"/>
-                <prop v="5;2" k="customdash"/>
-                <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
-                <prop v="MM" k="customdash_unit"/>
-                <prop v="0" k="draw_inside_polygon"/>
-                <prop v="bevel" k="joinstyle"/>
-                <prop v="35,35,35,255" k="line_color"/>
-                <prop v="solid" k="line_style"/>
-                <prop v="0.26" k="line_width"/>
-                <prop v="MM" k="line_width_unit"/>
-                <prop v="0" k="offset"/>
-                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-                <prop v="MM" k="offset_unit"/>
-                <prop v="0" k="ring_filter"/>
-                <prop v="0" k="use_custom_dash"/>
-                <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
-                <data_defined_properties>
-                  <Option type="Map">
-                    <Option type="QString" name="name" value=""/>
-                    <Option name="properties"/>
-                    <Option type="QString" name="type" value="collection"/>
-                  </Option>
-                </data_defined_properties>
-              </layer>
-            </symbol>
-          </axisSymbol>
-        </DiagramCategory>
-      </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" priority="0" showAll="1" zIndex="0" linePlacementFlags="18" dist="0" placement="0">
-        <properties>
-          <Option type="Map">
-            <Option type="QString" name="name" value=""/>
-            <Option name="properties"/>
-            <Option type="QString" name="type" value="collection"/>
-          </Option>
-        </properties>
-      </DiagramLayerSettings>
       <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
-        <activeChecks/>
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
         <checkConfiguration/>
       </geometryOptions>
       <referencedLayers/>
       <referencingLayers/>
       <fieldConfiguration>
         <field name="tipoelemnat">
-          <editWidget type="ValueRelation">
+          <editWidget type="">
             <config>
-              <Option type="Map">
-                <Option type="bool" name="AllowMulti" value="false"/>
-                <Option type="bool" name="AllowNull" value="true"/>
-                <Option type="QString" name="Description" value=""/>
-                <Option type="QString" name="FilterExpression" value=""/>
-                <Option type="QString" name="Key" value="id_codigo"/>
-                <Option type="QString" name="Layer" value="tipo_elem_nat_8c85f51d_f21b_4c5d_969a_02b7abe80f2a"/>
-                <Option type="QString" name="LayerName" value="tipo_elem_nat"/>
-                <Option type="QString" name="LayerProviderName" value="postgres"/>
-                <Option type="QString" name="LayerSource" value="service='spu-edgv-connection' sslmode=disable key='id_codigo' checkPrimaryKeyUnicity='1' table=&quot;dominio&quot;.&quot;tipo_elem_nat&quot;"/>
-                <Option type="int" name="NofColumns" value="1"/>
-                <Option type="bool" name="OrderByValue" value="true"/>
-                <Option type="bool" name="UseCompleter" value="false"/>
-                <Option type="QString" name="Value" value="nome_valor"/>
-              </Option>
+              <Option/>
             </config>
           </editWidget>
         </field>
         <field name="idgeometria">
-          <editWidget type="TextEdit">
+          <editWidget type="">
             <config>
-              <Option type="Map">
-                <Option type="bool" name="IsMultiline" value="false"/>
-                <Option type="bool" name="UseHtml" value="false"/>
-              </Option>
+              <Option/>
             </config>
           </editWidget>
         </field>
         <field name="nome">
-          <editWidget type="TextEdit">
+          <editWidget type="">
             <config>
-              <Option type="Map">
-                <Option type="bool" name="IsMultiline" value="false"/>
-                <Option type="bool" name="UseHtml" value="false"/>
-              </Option>
+              <Option/>
             </config>
           </editWidget>
         </field>
         <field name="geometriaaproximada">
-          <editWidget type="CheckBox">
+          <editWidget type="">
             <config>
-              <Option type="Map">
-                <Option type="QString" name="CheckedState" value=""/>
-                <Option type="QString" name="UncheckedState" value=""/>
-              </Option>
+              <Option/>
             </config>
           </editWidget>
         </field>
         <field name="nivelprecisaocart">
-          <editWidget type="ValueRelation">
+          <editWidget type="">
             <config>
-              <Option type="Map">
-                <Option type="bool" name="AllowMulti" value="false"/>
-                <Option type="bool" name="AllowNull" value="false"/>
-                <Option type="QString" name="Description" value=""/>
-                <Option type="QString" name="FilterExpression" value=""/>
-                <Option type="QString" name="Key" value="id_codigo"/>
-                <Option type="QString" name="Layer" value="nivel_precisao_cartografia_56cc14ac_461f_4d9f_86bb_67fdef6c82a5"/>
-                <Option type="QString" name="LayerName" value="nivel_precisao_cartografia"/>
-                <Option type="QString" name="LayerProviderName" value="postgres"/>
-                <Option type="QString" name="LayerSource" value="service='spu-edgv-connection' sslmode=disable key='id_codigo' checkPrimaryKeyUnicity='1' table=&quot;dominio&quot;.&quot;nivel_precisao_cartografia&quot;"/>
-                <Option type="int" name="NofColumns" value="1"/>
-                <Option type="bool" name="OrderByValue" value="true"/>
-                <Option type="bool" name="UseCompleter" value="false"/>
-                <Option type="QString" name="Value" value="nome_valor"/>
-              </Option>
+              <Option/>
             </config>
           </editWidget>
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="tipoelemnat" name="Tipo de Alteração do Relevo" index="0"/>
-        <alias field="idgeometria" name="ID da Geometria" index="1"/>
-        <alias field="nome" name="Nome" index="2"/>
-        <alias field="geometriaaproximada" name="Geometria Aproximada" index="3"/>
-        <alias field="nivelprecisaocart" name="Nível de Precisão da Cartografia" index="4"/>
+        <alias field="tipoelemnat" name="" index="0"/>
+        <alias field="idgeometria" name="" index="1"/>
+        <alias field="nome" name="" index="2"/>
+        <alias field="geometriaaproximada" name="" index="3"/>
+        <alias field="nivelprecisaocart" name="" index="4"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -9023,14 +8924,7 @@ def my_form_open(diálogo, camada, feição):
         <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
       <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
-        <columns>
-          <column hidden="0" type="field" name="tipoelemnat" width="-1"/>
-          <column hidden="0" type="field" name="idgeometria" width="-1"/>
-          <column hidden="0" type="field" name="nome" width="-1"/>
-          <column hidden="0" type="field" name="geometriaaproximada" width="-1"/>
-          <column hidden="0" type="field" name="nivelprecisaocart" width="-1"/>
-          <column hidden="1" type="actions" width="-1"/>
-        </columns>
+        <columns/>
       </attributetableconfig>
       <conditionalstyles>
         <rowstyles/>
@@ -9041,42 +8935,14 @@ def my_form_open(diálogo, camada, feição):
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[# -*- código: utf-8 -*-
-"""
-Formas QGIS podem ter uma função Python que é chamada quando o formulário é
-aberto.
-
-Use esta função para adicionar lógica extra para seus formulários.
-
-Digite o nome da função na "função Python Init"
-campo.
-Um exemplo a seguir:
-"""
-de qgis.PyQt.QtWidgets importar QWidget
-
-def my_form_open(diálogo, camada, feição):
-	geom = feature.geometry()
-	control = dialog.findChild(QWidget, "MyLineEdit")
-]]></editforminitcode>
+      <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
-      <editable>
-        <field name="geometriaaproximada" editable="1"/>
-        <field name="idgeometria" editable="0"/>
-        <field name="nivelprecisaocart" editable="1"/>
-        <field name="nome" editable="1"/>
-        <field name="tipoelemnat" editable="1"/>
-      </editable>
-      <labelOnTop>
-        <field name="geometriaaproximada" labelOnTop="0"/>
-        <field name="idgeometria" labelOnTop="0"/>
-        <field name="nivelprecisaocart" labelOnTop="0"/>
-        <field name="nome" labelOnTop="0"/>
-        <field name="tipoelemnat" labelOnTop="0"/>
-      </labelOnTop>
+      <editable/>
+      <labelOnTop/>
       <dataDefinedFieldProperties/>
       <widgets/>
-      <previewExpression>"nome"</previewExpression>
+      <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
     <maplayer simplifyDrawingHints="0" readOnly="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingTol="1" simplifyAlgorithm="0" minScale="100000000" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" geometry="Point" wkbType="MultiPoint" styleCategories="AllStyleCategories" labelsEnabled="0" refreshOnNotifyEnabled="0" simplifyMaxScale="1" type="vector" autoRefreshTime="0">
