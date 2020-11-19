@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveDateTime="2020-11-10T09:54:22" version="3.16.0-Hannover" projectname="" saveUserFull="Júlio Lima" saveUser="juliolima">
+<qgis saveDateTime="2020-11-10T09:54:51" version="3.16.0-Hannover" projectname="" saveUserFull="Júlio Lima" saveUser="juliolima">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -236,7 +236,7 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" name="Limite Patrimônio Imobiliário Público Federal" checked="Qt::Checked">
+    <layer-tree-group expanded="0" name="Limite Patrimônio Imobiliário Público Federal" checked="Qt::Checked">
       <customproperties/>
       <layer-tree-layer providerKey="postgres" source="service='spu-edgv-connection' sslmode=disable key='idgeometria' srid=4674 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;trecho_lmeo&quot; (geom)" expanded="1" legend_exp="" name="Trecho LMEO" checked="Qt::Unchecked" patch_size="-1,-1" id="trecho_lmeo_ca7dca67_595e_4146_80b2_8ae4cfbe92ab" legend_split_behavior="0">
         <customproperties/>
@@ -260,7 +260,7 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" name="Domínio" checked="Qt::Checked">
+    <layer-tree-group expanded="0" name="Domínio" checked="Qt::Unchecked">
       <customproperties/>
       <layer-tree-layer providerKey="postgres" source="service='spu-edgv-connection' sslmode=disable key='id_codigo' checkPrimaryKeyUnicity='1' table=&quot;dominio&quot;.&quot;administracao&quot;" expanded="1" legend_exp="" name="administracao" checked="Qt::Checked" patch_size="-1,-1" id="administracao_60ed371f_07db_4f2e_8d49_acb588b5f248" legend_split_behavior="0">
         <customproperties/>
@@ -961,7 +961,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup name="Limite Patrimônio Imobiliário Público Federal" checked="Qt::Checked" open="true">
+    <legendgroup name="Limite Patrimônio Imobiliário Público Federal" checked="Qt::Checked" open="false">
       <legendlayer showFeatureCount="0" name="Trecho LMEO" checked="Qt::Unchecked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
           <legendlayerfile isInOverview="0" layerid="trecho_lmeo_ca7dca67_595e_4146_80b2_8ae4cfbe92ab" visible="0"/>
@@ -998,330 +998,330 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup name="Domínio" checked="Qt::Checked" open="false">
+    <legendgroup name="Domínio" checked="Qt::Unchecked" open="false">
       <legendlayer showFeatureCount="0" name="administracao" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="administracao_60ed371f_07db_4f2e_8d49_acb588b5f248" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="administracao_60ed371f_07db_4f2e_8d49_acb588b5f248" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="auxiliar" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="auxiliar_59167a47_51f4_419e_b997_432abde7f835" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="auxiliar_59167a47_51f4_419e_b997_432abde7f835" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="bitola" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="bitola_639c1c2e_b81b_4cbe_acfc_197b2cc0c996" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="bitola_639c1c2e_b81b_4cbe_acfc_197b2cc0c996" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="causa_exposicao" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="causa_exposicao_8a9ae2c9_46b8_4613_ad36_c43731d2966d" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="causa_exposicao_8a9ae2c9_46b8_4613_ad36_c43731d2966d" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="classificacao_porte" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="classificacao_porte_b0205a7d_54ee_46e2_8c09_e3de74b7b302" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="classificacao_porte_b0205a7d_54ee_46e2_8c09_e3de74b7b302" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="demanda_geradora" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="demanda_geradora_fe846d4a_a61d_4870_ad66_89304cae54e1" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="demanda_geradora_fe846d4a_a61d_4870_ad66_89304cae54e1" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="densidade" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="densidade_c51fa2d2_184e_4905_bcd8_afbc693cd4b0" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="densidade_c51fa2d2_184e_4905_bcd8_afbc693cd4b0" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="especie_trecho_energia" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="especie_trecho_energia_fb647347_4723_4663_8220_9f38a133d345" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="especie_trecho_energia_fb647347_4723_4663_8220_9f38a133d345" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="etapa_demarcacao" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="etapa_demarcacao_0a6c93a2_fb28_4aa0_ab96_5c602e3452f8" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="etapa_demarcacao_0a6c93a2_fb28_4aa0_ab96_5c602e3452f8" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="finalidade_galeria_bueiro" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="finalidade_galeria_bueiro_fb83c58f_1f78_4f8c_8db7_4e06c63308e5" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="finalidade_galeria_bueiro_fb83c58f_1f78_4f8c_8db7_4e06c63308e5" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="jurisdicao" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="jurisdicao_b1c00b72_238a_40f1_ad02_ea4fe6ddd440" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="jurisdicao_b1c00b72_238a_40f1_ad02_ea4fe6ddd440" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="mat_condutor" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="mat_condutor_f43cbb8f_8407_423e_ad32_7cc94fac0929" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="mat_condutor_f43cbb8f_8407_423e_ad32_7cc94fac0929" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="mat_constr" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="mat_constr_d6f0d5c7_426e_4bc0_8bab_70dc24d7fbf5" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="mat_constr_d6f0d5c7_426e_4bc0_8bab_70dc24d7fbf5" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="mat_transp" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="mat_transp_ff0c0d40_dac7_470a_a18e_1b0c9fae2897" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="mat_transp_ff0c0d40_dac7_470a_a18e_1b0c9fae2897" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="metodologia_lmeo" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="metodologia_lmeo_016c5ce0_054c_4f9c_a459_d9c6f07469d6" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="metodologia_lmeo_016c5ce0_054c_4f9c_a459_d9c6f07469d6" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="modalidade" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="modalidade_56895bb8_03c0_41d8_9480_e48e858bc2b5" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="modalidade_56895bb8_03c0_41d8_9480_e48e858bc2b5" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="modal_uso" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="modal_uso_5cdcdc97_affb_4c2d_9926_16e47088c84b" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="modal_uso_5cdcdc97_affb_4c2d_9926_16e47088c84b" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="nr_linhas" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="nr_linhas_abdad49e_e44c_4a15_b885_7ee2b587ec3e" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="nr_linhas_abdad49e_e44c_4a15_b885_7ee2b587ec3e" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="nivel_precisao_cartografia" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="nivel_precisao_cartografia_56cc14ac_461f_4d9f_86bb_67fdef6c82a5" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="nivel_precisao_cartografia_56cc14ac_461f_4d9f_86bb_67fdef6c82a5" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="nivel_precisao_imovel" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="nivel_precisao_imovel_f46a2c78_21c0_4995_89dd_a973ae46cf6d" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="nivel_precisao_imovel_f46a2c78_21c0_4995_89dd_a973ae46cf6d" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="posicao_rel_edific" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="posicao_rel_edific_b4335d78_6c9f_4759_80e1_202ca8e09d8f" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="posicao_rel_edific_b4335d78_6c9f_4759_80e1_202ca8e09d8f" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="posicao_relativa" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="posicao_relativa_df3fe338_49f5_4470_ada4_4eb3899525c1" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="posicao_relativa_df3fe338_49f5_4470_ada4_4eb3899525c1" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="referencial_altim" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="referencial_altim_90cbd851_bd0d_498f_bdd5_d5cc3c98557b" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="referencial_altim_90cbd851_bd0d_498f_bdd5_d5cc3c98557b" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="regime" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="regime_87d2adb9_05d5_4f8c_a339_bb47b8e8c0a6" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="regime_87d2adb9_05d5_4f8c_a339_bb47b8e8c0a6" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="revestimento" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="revestimento_1f77821e_ac2f_4213_a284_af9086d299a9" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="revestimento_1f77821e_ac2f_4213_a284_af9086d299a9" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="setor" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="setor_bbd5c802_5a28_4be3_b407_1a4d898e7751" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="setor_bbd5c802_5a28_4be3_b407_1a4d898e7751" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="sigla_uf" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="sigla_uf_d78f5a54_b7dd_412f_ba50_f478583cadb5" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="sigla_uf_d78f5a54_b7dd_412f_ba50_f478583cadb5" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="sistema_geodesico" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="sistema_geodesico_d69d2e3c_9591_44d2_8356_62dfd30191c8" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="sistema_geodesico_d69d2e3c_9591_44d2_8356_62dfd30191c8" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="situacao_espacial" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="situacao_espacial_0460200a_b905_441e_bdf7_0d2c4fdbeb1a" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="situacao_espacial_0460200a_b905_441e_bdf7_0d2c4fdbeb1a" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="situacao_fisica" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="situacao_fisica_929d819e_6ecc_4d92_b12a_2b739b35b849" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="situacao_fisica_929d819e_6ecc_4d92_b12a_2b739b35b849" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="situacao_juridica" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="situacao_juridica_62025308_bf55_436b_a0d0_6908367db09c" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="situacao_juridica_62025308_bf55_436b_a0d0_6908367db09c" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="situacao_trecho" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="situacao_trecho_bfb5d2e5_03b7_4b49_b4d0_8c40a8e69db3" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="situacao_trecho_bfb5d2e5_03b7_4b49_b4d0_8c40a8e69db3" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_aad5ba25_16ff_4d3b_be70_2bf49f05ed93" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_aad5ba25_16ff_4d3b_be70_2bf49f05ed93" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_alter_antrop" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_alter_antrop_c204f498_3d1c_494d_a697_f4f65322f136" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_alter_antrop_c204f498_3d1c_494d_a697_f4f65322f136" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_area_especial" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_area_especial_1503e677_ff70_4b69_a766_469e31faa8c8" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_area_especial_1503e677_ff70_4b69_a766_469e31faa8c8" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_assentamento_precario" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_assentamento_precario_05b339ba_a1ea_4af5_bb1b_1a4ad2be0676" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_assentamento_precario_05b339ba_a1ea_4af5_bb1b_1a4ad2be0676" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_benfeitoria" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_benfeitoria_754d50a7_af3d_4d2a_9b80_4c107a321ecb" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_benfeitoria_754d50a7_af3d_4d2a_9b80_4c107a321ecb" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_complementar" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_complementar_3e437fb1_a8a1_4a9c_8b33_98a6324fb13a" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_complementar_3e437fb1_a8a1_4a9c_8b33_98a6324fb13a" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_curva_nivel" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_curva_nivel_b74038b0_75f4_4a2a_9ec4_b1212694dbe2" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_curva_nivel_b74038b0_75f4_4a2a_9ec4_b1212694dbe2" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_elem_nat" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_elem_nat_8c85f51d_f21b_4c5d_969a_02b7abe80f2a" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_elem_nat_8c85f51d_f21b_4c5d_969a_02b7abe80f2a" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_est_apoio_transporte" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_est_apoio_transporte_6ad38515_0053_4b9d_838e_54c452d11c01" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_est_apoio_transporte_6ad38515_0053_4b9d_838e_54c452d11c01" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_est_gerad" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_est_gerad_06817e34_ab91_401c_848f_1e8ccda7e51f" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_est_gerad_06817e34_ab91_401c_848f_1e8ccda7e51f" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_faixa_seguranca" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_faixa_seguranca_ed8911c0_1e0d_4ae0_bd7f_ca8d8be22731" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_faixa_seguranca_ed8911c0_1e0d_4ae0_bd7f_ca8d8be22731" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_ilha" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_ilha_f4a8b464_b4b8_463b_9567_c9f6747d4991" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_ilha_f4a8b464_b4b8_463b_9567_c9f6747d4991" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_localidade" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_localidade_9be3eef1_9360_4827_9d1d_7e9327ad8a87" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_localidade_9be3eef1_9360_4827_9d1d_7e9327ad8a87" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_massa_dagua" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_massa_dagua_d6ea1379_5619_471e_9934_165c29cc92ed" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_massa_dagua_d6ea1379_5619_471e_9934_165c29cc92ed" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_mobiliario" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_mobiliario_4979dcde_2039_47aa_ab19_c25d29e64e65" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_mobiliario_4979dcde_2039_47aa_ab19_c25d29e64e65" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_pavimentacao" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_pavimentacao_7b4bad8a_a585_4a16_b580_b7d4a9908dc2" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_pavimentacao_7b4bad8a_a585_4a16_b580_b7d4a9908dc2" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_ponto" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_ponto_08341cc4_54ac_4d15_9572_049d9d33b44c" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_ponto_08341cc4_54ac_4d15_9572_049d9d33b44c" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_ponto_enc" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_ponto_enc_a1e203de_c9f0_4e28_ac30_52da3c8a0ac2" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_ponto_enc_a1e203de_c9f0_4e28_ac30_52da3c8a0ac2" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_ponto_energia_comunic" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_ponto_energia_comunic_61f153d7_a04f_4307_9ec4_74f35768d70d" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_ponto_energia_comunic_61f153d7_a04f_4307_9ec4_74f35768d70d" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_pto_ref_geod_topo" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_pto_ref_geod_topo_b1601dc8_ded5_4dce_8d8b_0180ec1e8486" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_pto_ref_geod_topo_b1601dc8_ded5_4dce_8d8b_0180ec1e8486" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_ref" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_ref_098a14af_3def_40a6_ad5e_00ef3ccc972e" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_ref_098a14af_3def_40a6_ad5e_00ef3ccc972e" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_superficie" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_superficie_fb8dc490_88ea_4f0f_b87a_18e181ce4d6f" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_superficie_fb8dc490_88ea_4f0f_b87a_18e181ce4d6f" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_terreno_exposto" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_terreno_exposto_4a16f09a_f7a8_4ec3_8899_f1211baeb68f" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_terreno_exposto_4a16f09a_f7a8_4ec3_8899_f1211baeb68f" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_torre" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_torre_dfb6567f_a8e6_4488_a631_5bfc3cf91615" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_torre_dfb6567f_a8e6_4488_a631_5bfc3cf91615" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_trecho" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_trecho_e13e9b50_cb58_4b34_acbe_fac652894a5f" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_trecho_e13e9b50_cb58_4b34_acbe_fac652894a5f" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_trecho_comunic" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_trecho_comunic_2db83b35_a11d_4ea5_b2cc_def1fea66441" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_trecho_comunic_2db83b35_a11d_4ea5_b2cc_def1fea66441" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_trecho_drenagem" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_trecho_drenagem_595b2fc3_1a5e_4dd6_b870_80548d9f052b" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_trecho_drenagem_595b2fc3_1a5e_4dd6_b870_80548d9f052b" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_trecho_duto" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_trecho_duto_52e8477a_5e8a_4b43_9750_5853b0a01375" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_trecho_duto_52e8477a_5e8a_4b43_9750_5853b0a01375" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_trecho_ferrov" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_trecho_ferrov_cad8169a_48bb_4219_b4f7_2be07533b255" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_trecho_ferrov_cad8169a_48bb_4219_b4f7_2be07533b255" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_vegetacao" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_vegetacao_62139274_a1c3_4f45_9355_c29765da781f" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_vegetacao_62139274_a1c3_4f45_9355_c29765da781f" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="tipo_via" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="tipo_via_3022f3ee_eba5_4bae_9259_b40b4f340f92" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tipo_via_3022f3ee_eba5_4bae_9259_b40b4f340f92" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="trafego" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="trafego_ce097862_118c_4c98_8f84_43d3f8d96f7c" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="trafego_ce097862_118c_4c98_8f84_43d3f8d96f7c" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="uso_principal" checked="Qt::Checked" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="uso_principal_5e77bfcc_580b_4a58_b576_ea6f5a79d00f" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="uso_principal_5e77bfcc_580b_4a58_b576_ea6f5a79d00f" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
